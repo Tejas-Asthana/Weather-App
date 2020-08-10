@@ -27,6 +27,7 @@
   padding: 10px;
   flex-shrink: initial;
   background-color: #fcefee;
+  
 }
 
 .search-bar input {
@@ -38,32 +39,19 @@
   flex-shrink: 2;
 }
 
-.search-header .fa-search-location {
-  color: grey;
-  padding: 0 10px;
-}
+.location-icon > svg, .close-icon > svg, .go-search-icon > svg {
+  width: 20px;
+  height: auto;
+  fill: grey;
+} 
+
 
 .search-header button {
   background-color: transparent;
   border: none;
 }
 
-.search-header .go-search-city {
-  width: 100px;
-  border: 1px solid black;
-  padding: 0 100px;
-}
-
-.search-header .fa-angle-double-right {
-  color: #7f81d6;
-  padding: 0 10px;
-}
-
-.fa-times:hover {
-  cursor: pointer;
-}
-
-.fa-angle-double-right:hover {
+.close-icon > svg:hover, .go-search-icon > svg:hover {
   cursor: pointer;
 }
 
@@ -146,15 +134,12 @@
 }
 
 .wheather-details-badge {
-  /* background-color: #364f6b; */
   background: linear-gradient(to left, rgb(127, 127, 213), rgb(134, 168, 231), rgb(145, 234, 228));
   border-radius: 10px;
 }
 
 .title {
   background-color: #fff;
-  /* background: transparent; */
-  /* color: #364f6b; */
   color: #5d5d5a;
   padding: 15px;
   border-radius: 10px;
@@ -167,7 +152,6 @@
 
 .unit {
   font-size: 12px;
-  /* vertical-align: text-bottom; */
 }
 
 @media (max-width: 800px) {
