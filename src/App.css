@@ -37,6 +37,7 @@
   width: 100%;
   padding-left: 20px;
   flex-shrink: 2;
+  outline: none;
 }
 
 .location-icon > svg, .close-icon > svg, .go-search-icon > svg {
